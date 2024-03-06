@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#main{
+    text-align: center;
+}
+
+
+#head-div{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("logimg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+.h{
+
+    font-family: "Marhey", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ #h{
+    position: relative;
+    top: 150px;
+    color: rgb(250, 186, 66);
+} 
+
+h2{
+    margin:200px 200px 20px 200px;
+    color: white;
+
+}
+
+#logtext{
+    margin: 0px 200px 0px 200px; 
+    color: aqua;
+}
+button{
+    font-weight: bold;
+    width: 55px;
+    height: 27px;
+    margin: 20px;
+    border:black solid 1px;
+    border-radius: 4px;
+    background-color: rgb(245, 174, 43);
+    box-shadow: 0 0 2px 2px wheat;
+}
+#body-div{
+    background-color: rgb(250, 186, 66);
+}
+.h.body{
+    color: black;
+}
+p{
+    margin: 10px 50px 10px 50px;
+}
